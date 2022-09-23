@@ -1,0 +1,55 @@
+Node_name,Node,IRI,Gracious,Node1,causes,Node2,Cito,Reference
+N1,core composition,http://purl.bioontology.org/ontology/npo#NPO_1808,gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,N11,correlates,N10,containsAssertionFrom,10.1039/d0nr00868k
+N2,coating/surface chemistry,http://purl.bioontology.org/ontology/npo#NPO_1823,gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,N12,correlates,N10,containsAssertionFrom,https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content
+N3,dimensionality (shape),,,N9 ,correlates,N10,containsAssertionFrom,https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content
+N4,polydispersity,http://purl.bioontology.org/ontology/npo#NPO_274,http://www.bigcat.unimaas.nl/sbd4nano/gracious.owl#GR_00000003,N2,correlates,N10,containsAssertionFrom,https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content
+N5,diameter,,,N10,correlates,N14,containsAssertionFrom,10.1039/d0nr00868k
+N6,length,,,N10,correlates,N19,containsAssertionFrom,10.1039/d0nr00868k
+N7,stacks,,,N10,correlates,N17,containsAssertionFrom,10.1039/d0nr00868k
+N8,crystal structure,http://purl.bioontology.org/ontology/npo#NPO_895,,N10,correlates,N18,containsAssertionFrom,10.1039/d0nr00868k
+N9,interaction potential,,,N10,correlates,N20,containsAssertionFrom,10.1039/d0nr00868k
+N10,aggregation,http://purl.bioontology.org/ontology/npo#NPO_1967,gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,N25,correlates,N10,containsAssertionFrom,10.1039/d0nr00868k
+N11,medium,http://purl.bioontology.org/ontology/npo#NPO_1853,,N13,correlates,N12,containsAssertionFrom,
+N12,concentration,,,N13,correlates,N11,containsAssertionFrom,
+N13,exposure route,,,N13,correlates,N17,containsAssertionFrom,
+N14,reactivity,,,N19,positivelyCorrelates,N17,containsAssertionFrom,
+N15,photo-reactivity,,,N12,positivelyCorrelates,N17,containsAssertionFrom,
+N16,quantum and tunneling effects,,,N5,correlates,N25,containsAssertionFrom,
+N17,cell uptake (amount),,,N6,correlates,N25,containsAssertionFrom,
+N18,environmental fate,,,N7,correlates,N25,containsAssertionFrom,
+N19,membrane crossing,,,N11,correlates,N21,containsAssertionFrom,
+N20,toxicity,,,N1,correlates,N21,containsAssertionFrom,
+N21,dissolution rate,http://purl.bioontology.org/ontology/npo#NPO_1955,,N2,correlates,N21,containsAssertionFrom,
+N22,organ type,,,N25,correlates,N21,containsAssertionFrom,
+N23,kidney activity,,,N26,correlates,N21,containsAssertionFrom,
+N24,enzyme degredation,,,N21,correlates,N30,containsAssertionFrom,https://doi.org/10.1016/j.scitotenv.2012.08.066
+N25,size,http://purl.org/obo/owl/PATO#PATO_0000117,,N21,correlates,N18,containsAssertionFrom,https://doi.org/10.1016/j.scitotenv.2012.08.066
+N26,specific surface area,,,N21,correlates,N8,containsAssertionFrom,https://doi.org/10.1016/j.scitotenv.2012.08.066
+N27,liver/spleen activity,,,N25,correlates,N26,containsAssertionFrom,
+N28,PEGylation,,,N25,correlates,N30,containsAssertionFrom,
+N29,organ distribution,,,N25,correlates,N15,containsAssertionFrom,
+N30,cell uptake (type),,,N8,correlates,N15,containsAssertionFrom,
+N31,protein corona,,gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,N13,correlates,N22,containsAssertionFrom,
+N32,charge,,,N27,negativelyCorrelates,N12,containsAssertionFrom,
+N33,deformability,,,N23,negativelyCorrelates,N12,containsAssertionFrom,
+N34,ROS production,,,N25,correlates,N27,containsAssertionFrom,
+N35,ultraviolet shielding function,,,N25,correlates,N23,containsAssertionFrom,
+N36,,,,N24,correlates,N12,containsAssertionFrom,
+N37,,,,N30,correlates,N17,containsAssertionFrom,
+N38,,,,N17,correlates,N12,containsAssertionFrom,
+N39,,,,N3,correlates,N30,containsAssertionFrom,
+,,,,N1,correlates,N31,containsAssertionFrom,
+,,,,N2,correlates,N31,containsAssertionFrom,
+,,,,N3,correlates,N31,containsAssertionFrom,
+,,,,N32,correlates,N31,containsAssertionFrom,
+,,,,N25,correlates,N31,containsAssertionFrom,
+,,,,N11,correlates,N31,containsAssertionFrom,
+,,,,N12,correlates,N31,containsAssertionFrom,
+,,,,N31,correlates,N17,containsAssertionFrom,
+,,,,N2,correlates,N17,containsAssertionFrom,
+,,,,N2,correlates,N30,containsAssertionFrom,
+,,,,N33,correlates,N25,containsAssertionFrom,
+,,,,N33,correlates,N3,containsAssertionFrom,
+,,,,N26,positivelyCorrelates,N15,containsAssertionFrom,
+,,,,N25,negativelyCorrelates,N15,containsAssertionFrom,
+,,,,N2,correlates,N35,containsAssertionFrom,
