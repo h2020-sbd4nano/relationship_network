@@ -1,0 +1,549 @@
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix kb: <https://h2020-sbd4nano.github.io/sbd-data-landscape/> .
+@prefix npo: <http://purl.bioontology.org/ontology/npo#> .
+@prefix pato: <http://purl.org/obo/owl/PATO#> .
+@prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
+
+kb:CausalAssertion_0 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "medium" ;
+            = npo:NPO_1853 ] ;
+    sbdbel:outcome [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_1 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_10 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "exposure route" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_11 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "exposure route" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "medium" ;
+            = npo:NPO_1853 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_12 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "exposure route" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_13 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "membrane crossing" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_14 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_15 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "diameter" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_16 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "length" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_17 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "stacks" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_18 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "medium" ;
+            = npo:NPO_1853 ] ;
+    sbdbel:outcome [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_19 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "core composition" ;
+            = npo:NPO_1808 ] ;
+    sbdbel:outcome [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_2 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ dcterms:label "interaction potential" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_20 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_21 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_22 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "specific surface area" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_23 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_24 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:outcome [ dcterms:label "environmental fate" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_25 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ dcterms:label "dissolution rate" ;
+            = npo:NPO_1955 ] ;
+    sbdbel:outcome [ dcterms:label "crystal structure" ;
+            = npo:NPO_895 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_26 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "specific surface area" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_27 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_28 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_29 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "crystal structure" ;
+            = npo:NPO_895 ] ;
+    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_3 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_30 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "exposure route" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "organ type" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_31 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "liver/spleen activity" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_32 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "kidney activity" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_33 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "liver/spleen activity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_34 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "kidney activity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_35 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "enzyme degredation" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_36 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "cell uptake (type)" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_37 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_38 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "dimensionality (shape)" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_39 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "core composition" ;
+            = npo:NPO_1808 ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_4 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:outcome [ dcterms:label "reactivity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_40 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_41 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "dimensionality (shape)" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_42 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "charge" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_43 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_44 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "medium" ;
+            = npo:NPO_1853 ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_45 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "concentration" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_46 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "protein corona" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_47 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_48 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_49 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "deformability" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_5 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:outcome [ dcterms:label "membrane crossing" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_50 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "deformability" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "dimensionality (shape)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_51 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "specific surface area" ;
+            = <nan> ] ;
+    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_52 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_53 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
+            = npo:NPO_1823 ] ;
+    sbdbel:outcome [ dcterms:label "ultraviolet shielding function" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_6 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_7 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:outcome [ dcterms:label "environmental fate" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_8 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:outcome [ dcterms:label "toxicity" ;
+            = <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_9 a sbd:causalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ dcterms:label "size" ;
+            = pato:PATO_0000117 ] ;
+    sbdbel:outcome [ dcterms:label "aggregation" ;
+            = npo:NPO_1967 ] ;
+    sbdbel:relationship sbdbel:correlates .
+
