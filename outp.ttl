@@ -14,9 +14,15 @@
 @prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
 @prefix sio: <http://semanticscience.org/resource/> .
 
-kb:CausalAssertion_0 a sbd:causalAssertion,
+<https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/>
+ a                    void:DatasetDescription ;
+ dc:source            <https://www.sbd4nano.eu/> ;
+ dcterms:title        "SbD4nano WP2 Causal Relationships"@en ;
+ dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> .
+
+kb:CausalAssertion_0 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -27,9 +33,9 @@ kb:CausalAssertion_0 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_1 a sbd:causalAssertion,
+kb:CausalAssertion_1 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -41,9 +47,9 @@ kb:CausalAssertion_1 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_10 a sbd:causalAssertion,
+kb:CausalAssertion_10 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
@@ -53,9 +59,9 @@ kb:CausalAssertion_10 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_11 a sbd:causalAssertion,
+kb:CausalAssertion_11 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
@@ -66,9 +72,9 @@ kb:CausalAssertion_11 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_12 a sbd:causalAssertion,
+kb:CausalAssertion_12 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
@@ -79,9 +85,9 @@ kb:CausalAssertion_12 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_13 a sbd:causalAssertion,
+kb:CausalAssertion_13 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
@@ -93,9 +99,9 @@ kb:CausalAssertion_13 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_14 a sbd:causalAssertion,
+kb:CausalAssertion_14 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
@@ -105,9 +111,9 @@ kb:CausalAssertion_14 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_15 a sbd:causalAssertion,
+kb:CausalAssertion_15 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "shape" ;
             ns1:sameAs npo:NPO_274,
@@ -117,9 +123,9 @@ kb:CausalAssertion_15 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_16 a sbd:causalAssertion,
+kb:CausalAssertion_16 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "shape" ;
             ns1:sameAs npo:NPO_274,
@@ -130,9 +136,9 @@ kb:CausalAssertion_16 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_17 a sbd:causalAssertion,
+kb:CausalAssertion_17 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1080/15376516.2020.1761920> ;
     sbdbel:cause [ dcterms:label "diameter" ;
             ns1:sameAs pato:PATO_0001334,
@@ -142,9 +148,9 @@ kb:CausalAssertion_17 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_18 a sbd:causalAssertion,
+kb:CausalAssertion_18 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "diameter" ;
             ns1:sameAs pato:PATO_0001334,
@@ -154,9 +160,9 @@ kb:CausalAssertion_18 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_19 a sbd:causalAssertion,
+kb:CausalAssertion_19 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "length" ;
             ns1:sameAs pato:PATO_0000122,
@@ -166,9 +172,9 @@ kb:CausalAssertion_19 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_2 a sbd:causalAssertion,
+kb:CausalAssertion_2 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -179,9 +185,9 @@ kb:CausalAssertion_2 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_20 a sbd:causalAssertion,
+kb:CausalAssertion_20 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "stacks" ;
             ns1:sameAs <nan> ] ;
@@ -190,9 +196,9 @@ kb:CausalAssertion_20 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_21 a sbd:causalAssertion,
+kb:CausalAssertion_21 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "crystal structure" ;
             ns1:sameAs npo:NPO_895,
@@ -203,9 +209,9 @@ kb:CausalAssertion_21 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_22 a sbd:causalAssertion,
+kb:CausalAssertion_22 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
     sbdbel:cause [ dcterms:label "interaction potential" ;
             ns1:sameAs <nan> ] ;
@@ -215,9 +221,9 @@ kb:CausalAssertion_22 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_23 a sbd:causalAssertion,
+kb:CausalAssertion_23 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "aggregation" ;
             ns1:sameAs npo:NPO_1967,
@@ -228,9 +234,9 @@ kb:CausalAssertion_23 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_24 a sbd:causalAssertion,
+kb:CausalAssertion_24 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "aggregation" ;
             ns1:sameAs npo:NPO_1967,
@@ -240,9 +246,9 @@ kb:CausalAssertion_24 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_25 a sbd:causalAssertion,
+kb:CausalAssertion_25 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "aggregation" ;
             ns1:sameAs npo:NPO_1967,
@@ -253,9 +259,9 @@ kb:CausalAssertion_25 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_26 a sbd:causalAssertion,
+kb:CausalAssertion_26 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "aggregation" ;
             ns1:sameAs npo:NPO_1967,
@@ -265,9 +271,9 @@ kb:CausalAssertion_26 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_27 a sbd:causalAssertion,
+kb:CausalAssertion_27 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "aggregation" ;
             ns1:sameAs npo:NPO_1967,
@@ -278,9 +284,9 @@ kb:CausalAssertion_27 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_28 a sbd:causalAssertion,
+kb:CausalAssertion_28 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "medium" ;
             ns1:sameAs npo:NPO_1853,
@@ -291,9 +297,9 @@ kb:CausalAssertion_28 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_29 a sbd:causalAssertion,
+kb:CausalAssertion_29 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "medium" ;
             ns1:sameAs npo:NPO_1853,
@@ -303,9 +309,9 @@ kb:CausalAssertion_29 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_3 a sbd:causalAssertion,
+kb:CausalAssertion_3 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -315,9 +321,9 @@ kb:CausalAssertion_3 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_30 a sbd:causalAssertion,
+kb:CausalAssertion_30 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "medium" ;
             ns1:sameAs npo:NPO_1853,
@@ -328,9 +334,9 @@ kb:CausalAssertion_30 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_31 a sbd:causalAssertion,
+kb:CausalAssertion_31 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
     sbdbel:cause [ dcterms:label "concentration" ;
             ns1:sameAs npo:NPO_1167,
@@ -341,9 +347,9 @@ kb:CausalAssertion_31 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_32 a sbd:causalAssertion,
+kb:CausalAssertion_32 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "concentration" ;
             ns1:sameAs npo:NPO_1167,
@@ -352,9 +358,9 @@ kb:CausalAssertion_32 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_33 a sbd:causalAssertion,
+kb:CausalAssertion_33 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "concentration" ;
             ns1:sameAs npo:NPO_1167,
@@ -365,9 +371,9 @@ kb:CausalAssertion_33 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_34 a sbd:causalAssertion,
+kb:CausalAssertion_34 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "exposure route" ;
             ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
@@ -377,9 +383,9 @@ kb:CausalAssertion_34 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_35 a sbd:causalAssertion,
+kb:CausalAssertion_35 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "exposure route" ;
             ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
@@ -389,9 +395,9 @@ kb:CausalAssertion_35 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_36 a sbd:causalAssertion,
+kb:CausalAssertion_36 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "exposure route" ;
             ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
@@ -400,9 +406,9 @@ kb:CausalAssertion_36 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_37 a sbd:causalAssertion,
+kb:CausalAssertion_37 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "exposure route" ;
             ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
@@ -412,9 +418,9 @@ kb:CausalAssertion_37 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_38 a sbd:causalAssertion,
+kb:CausalAssertion_38 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "photo-reactivity" ;
             ns1:sameAs bio:200906046025103420,
@@ -426,9 +432,9 @@ kb:CausalAssertion_38 a sbd:causalAssertion,
                 aop_event:1392 ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_39 a sbd:causalAssertion,
+kb:CausalAssertion_39 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "cell uptake (amount)" ;
             ns1:sameAs <nan> ] ;
@@ -437,9 +443,9 @@ kb:CausalAssertion_39 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_4 a sbd:causalAssertion,
+kb:CausalAssertion_4 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -450,9 +456,9 @@ kb:CausalAssertion_4 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_40 a sbd:causalAssertion,
+kb:CausalAssertion_40 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "membrane crossing" ;
             ns1:sameAs <nan> ] ;
@@ -460,9 +466,9 @@ kb:CausalAssertion_40 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_41 a sbd:causalAssertion,
+kb:CausalAssertion_41 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
     sbdbel:cause [ dcterms:label "dissolution" ;
             ns1:sameAs npo:NPO_1955,
@@ -472,9 +478,9 @@ kb:CausalAssertion_41 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_42 a sbd:causalAssertion,
+kb:CausalAssertion_42 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
     sbdbel:cause [ dcterms:label "dissolution" ;
             ns1:sameAs npo:NPO_1955,
@@ -484,9 +490,9 @@ kb:CausalAssertion_42 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_43 a sbd:causalAssertion,
+kb:CausalAssertion_43 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
     sbdbel:cause [ dcterms:label "dissolution" ;
             ns1:sameAs npo:NPO_1955,
@@ -496,9 +502,9 @@ kb:CausalAssertion_43 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_44 a sbd:causalAssertion,
+kb:CausalAssertion_44 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "kidney activity" ;
             ns1:sameAs <nan> ] ;
@@ -507,9 +513,9 @@ kb:CausalAssertion_44 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:negativelyCorrelates .
 
-kb:CausalAssertion_45 a sbd:causalAssertion,
+kb:CausalAssertion_45 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "enzyme degredation" ;
             ns1:sameAs <http://www.biopax.org/release/biopax-level3.owl#Degradation>,
@@ -519,9 +525,9 @@ kb:CausalAssertion_45 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_46 a sbd:causalAssertion,
+kb:CausalAssertion_46 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -532,9 +538,9 @@ kb:CausalAssertion_46 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_47 a sbd:causalAssertion,
+kb:CausalAssertion_47 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -545,9 +551,9 @@ kb:CausalAssertion_47 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:negativelyCorrelates .
 
-kb:CausalAssertion_48 a sbd:causalAssertion,
+kb:CausalAssertion_48 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -557,9 +563,9 @@ kb:CausalAssertion_48 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_49 a sbd:causalAssertion,
+kb:CausalAssertion_49 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -568,9 +574,9 @@ kb:CausalAssertion_49 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_5 a sbd:causalAssertion,
+kb:CausalAssertion_5 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -581,9 +587,9 @@ kb:CausalAssertion_5 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_50 a sbd:causalAssertion,
+kb:CausalAssertion_50 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -594,9 +600,9 @@ kb:CausalAssertion_50 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_51 a sbd:causalAssertion,
+kb:CausalAssertion_51 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -605,9 +611,9 @@ kb:CausalAssertion_51 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_52 a sbd:causalAssertion,
+kb:CausalAssertion_52 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -617,9 +623,9 @@ kb:CausalAssertion_52 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_53 a sbd:causalAssertion,
+kb:CausalAssertion_53 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "size" ;
             ns1:sameAs pato:PATO_0000117,
@@ -630,9 +636,9 @@ kb:CausalAssertion_53 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_54 a sbd:causalAssertion,
+kb:CausalAssertion_54 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://doi.org/10.1021/cr0500535> ;
     sbdbel:cause [ dcterms:label "surface area" ;
             ns1:sameAs npo:NPO_1235,
@@ -644,9 +650,9 @@ kb:CausalAssertion_54 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_55 a sbd:causalAssertion,
+kb:CausalAssertion_55 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "surface area" ;
             ns1:sameAs npo:NPO_1235,
@@ -657,9 +663,9 @@ kb:CausalAssertion_55 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_56 a sbd:causalAssertion,
+kb:CausalAssertion_56 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "liver/spleen activity" ;
             ns1:sameAs <nan> ] ;
@@ -668,9 +674,9 @@ kb:CausalAssertion_56 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:negativelyCorrelates .
 
-kb:CausalAssertion_57 a sbd:causalAssertion,
+kb:CausalAssertion_57 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "cell uptake (type)" ;
             ns1:sameAs npo:NPO_296,
@@ -679,9 +685,9 @@ kb:CausalAssertion_57 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_58 a sbd:causalAssertion,
+kb:CausalAssertion_58 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "protein corona" ;
             ns1:sameAs enm:ENM_0000115,
@@ -691,9 +697,9 @@ kb:CausalAssertion_58 a sbd:causalAssertion,
             ns1:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_59 a sbd:causalAssertion,
+kb:CausalAssertion_59 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "charge" ;
             ns1:sameAs npo:NPO_1292,
@@ -704,9 +710,9 @@ kb:CausalAssertion_59 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_6 a sbd:causalAssertion,
+kb:CausalAssertion_6 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -717,9 +723,9 @@ kb:CausalAssertion_6 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_60 a sbd:causalAssertion,
+kb:CausalAssertion_60 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "deformability" ;
             ns1:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
@@ -729,9 +735,9 @@ kb:CausalAssertion_60 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_61 a sbd:causalAssertion,
+kb:CausalAssertion_61 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "deformability" ;
             ns1:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
@@ -741,9 +747,9 @@ kb:CausalAssertion_61 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_7 a sbd:causalAssertion,
+kb:CausalAssertion_7 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -754,9 +760,9 @@ kb:CausalAssertion_7 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_8 a sbd:causalAssertion,
+kb:CausalAssertion_8 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <nan> ;
     sbdbel:cause [ dcterms:label "core composition" ;
             ns1:sameAs npo:NPO_1808,
@@ -767,9 +773,9 @@ kb:CausalAssertion_8 a sbd:causalAssertion,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_9 a sbd:causalAssertion,
+kb:CausalAssertion_9 a sbdbel:CausalAssertion,
         sbd:resource ;
-    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
     sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
             ns1:sameAs npo:NPO_1823,
