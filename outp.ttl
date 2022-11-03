@@ -4,786 +4,1125 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix enm: <http://purl.enanomapper.org/onto/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gracious: <https://h2020-sbd4nano.github.io/sbd4nano-gracious-owl/gracious.html#> .
 @prefix kb: <https://h2020-sbd4nano.github.io/sbd-data-landscape/> .
 @prefix npo: <http://purl.bioontology.org/ontology/npo#> .
-@prefix ns1: <http://www.w3.org/2002/07/owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pato: <http://purl.org/obo/owl/PATO#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sbd: <https://www.sbd4nano.eu/rdf/#> .
 @prefix sbdbel: <https://www.sbd4nano.eu/bel/#> .
 @prefix sio: <http://semanticscience.org/resource/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 
-<https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/>
- a                    void:DatasetDescription ;
- dc:source            <https://www.sbd4nano.eu/> ;
- dcterms:title        "SbD4nano WP2 Causal Relationships"@en ;
- dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> .
+<https://github.com/h2020-sbd4nano/relationship_network> a void:DatasetDescription ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    dc:title "SbD4nano WP2 Causal Relationships"@en ;
+    foaf:page <https://www.sbd4nano.eu/> .
 
-kb:CausalAssertion_0 a sbdbel:CausalAssertion,
+kb:CausalAssertion_0 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
                 gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_1 a sbdbel:CausalAssertion,
+kb:CausalAssertion_1 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
                 gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
                 gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_10 a sbdbel:CausalAssertion,
+kb:CausalAssertion_10 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
                 gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_11 a sbdbel:CausalAssertion,
+kb:CausalAssertion_11 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
                 gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_12 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
-                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
-            ns1:sameAs npo:NPO_296,
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_13 a sbdbel:CausalAssertion,
+kb:CausalAssertion_12 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
                 gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_13 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
+                gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
                 gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_14 a sbdbel:CausalAssertion,
+kb:CausalAssertion_14 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
                 gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "ultraviolet shielding function" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ultraviolet shielding function" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_15 a sbdbel:CausalAssertion,
+kb:CausalAssertion_15 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "shape" ;
-            ns1:sameAs npo:NPO_274,
+    sbdbel:cause [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
-            ns1:sameAs npo:NPO_296,
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_16 a sbdbel:CausalAssertion,
+kb:CausalAssertion_16 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "shape" ;
-            ns1:sameAs npo:NPO_274,
+    sbdbel:cause [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
                 gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_17 a sbdbel:CausalAssertion,
+kb:CausalAssertion_17 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1080/15376516.2020.1761920> ;
-    sbdbel:cause [ dcterms:label "diameter" ;
-            ns1:sameAs pato:PATO_0001334,
+    sbdbel:cause [ rdfs:label "diameter" ;
+            owl:sameAs pato:PATO_0001334,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "toxicity" ;
-            ns1:sameAs npo:NPO_1338,
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
                 <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_18 a sbdbel:CausalAssertion,
+kb:CausalAssertion_18 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "diameter" ;
-            ns1:sameAs pato:PATO_0001334,
+    sbdbel:cause [ rdfs:label "diameter" ;
+            owl:sameAs pato:PATO_0001334,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_19 a sbdbel:CausalAssertion,
+kb:CausalAssertion_19 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "length" ;
-            ns1:sameAs pato:PATO_0000122,
+    sbdbel:cause [ rdfs:label "length" ;
+            owl:sameAs pato:PATO_0000122,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_2 a sbdbel:CausalAssertion,
+kb:CausalAssertion_2 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
                 gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "crystal structure" ;
-            ns1:sameAs npo:NPO_895,
+    sbdbel:outcome [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_20 a sbdbel:CausalAssertion,
+kb:CausalAssertion_20 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "stacks" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:cause [ rdfs:label "stacks" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_21 a sbdbel:CausalAssertion,
+kb:CausalAssertion_21 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "crystal structure" ;
-            ns1:sameAs npo:NPO_895,
+    sbdbel:cause [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
-            ns1:sameAs bio:200906046025103420,
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
                 gracious:f2e9da49-86e2-9841-818c-06668ea97115,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_22 a sbdbel:CausalAssertion,
+kb:CausalAssertion_22 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
-    sbdbel:cause [ dcterms:label "interaction potential" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "interaction potential" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_23 a sbdbel:CausalAssertion,
+kb:CausalAssertion_23 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "reactivity" ;
-            ns1:sameAs bio:200906068457811098,
+    sbdbel:outcome [ rdfs:label "reactivity" ;
+            owl:sameAs bio:200906068457811098,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_24 a sbdbel:CausalAssertion,
+kb:CausalAssertion_24 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_25 a sbdbel:CausalAssertion,
+kb:CausalAssertion_25 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "environmental fate" ;
-            ns1:sameAs enm:ENM_0000001,
+    sbdbel:outcome [ rdfs:label "environmental fate" ;
+            owl:sameAs enm:ENM_0000001,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_26 a sbdbel:CausalAssertion,
+kb:CausalAssertion_26 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "membrane crossing" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "membrane crossing" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_27 a sbdbel:CausalAssertion,
+kb:CausalAssertion_27 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:cause [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "toxicity" ;
-            ns1:sameAs npo:NPO_1338,
+    sbdbel:outcome [ rdfs:label "toxicity" ;
+            owl:sameAs npo:NPO_1338,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_28 a sbdbel:CausalAssertion,
+kb:CausalAssertion_28 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "medium" ;
-            ns1:sameAs npo:NPO_1853,
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_29 a sbdbel:CausalAssertion,
+kb:CausalAssertion_29 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "medium" ;
-            ns1:sameAs npo:NPO_1853,
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_3 a sbdbel:CausalAssertion,
+kb:CausalAssertion_3 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
                 gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "interaction potential" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "interaction potential" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_30 a sbdbel:CausalAssertion,
+kb:CausalAssertion_30 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "medium" ;
-            ns1:sameAs npo:NPO_1853,
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
                 gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_31 a sbdbel:CausalAssertion,
+kb:CausalAssertion_31 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
-    sbdbel:cause [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_32 a sbdbel:CausalAssertion,
+kb:CausalAssertion_32 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:positivelyCorrelates .
 
-kb:CausalAssertion_33 a sbdbel:CausalAssertion,
+kb:CausalAssertion_33 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:cause [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
                 gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_34 a sbdbel:CausalAssertion,
+kb:CausalAssertion_34 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "exposure route" ;
-            ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "medium" ;
-            ns1:sameAs npo:NPO_1853,
+    sbdbel:outcome [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_35 a sbdbel:CausalAssertion,
+kb:CausalAssertion_35 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "exposure route" ;
-            ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_36 a sbdbel:CausalAssertion,
+kb:CausalAssertion_36 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "exposure route" ;
-            ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_37 a sbdbel:CausalAssertion,
+kb:CausalAssertion_37 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "exposure route" ;
-            ns1:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
+    sbdbel:cause [ rdfs:label "exposure route" ;
+            owl:sameAs <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83121>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "organ (type)" ;
-            ns1:sameAs <http://purl.obolibrary.org/obo/UBERON_0000062>,
+    sbdbel:outcome [ rdfs:label "organ (type)" ;
+            owl:sameAs <http://purl.obolibrary.org/obo/UBERON_0000062>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_38 a sbdbel:CausalAssertion,
+kb:CausalAssertion_38 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "photo-reactivity" ;
-            ns1:sameAs bio:200906046025103420,
+    sbdbel:cause [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
                 gracious:f2e9da49-86e2-9841-818c-06668ea97115,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "ROS production" ;
-            ns1:sameAs enm:ENM_0000037,
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_39 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_4 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "reactivity" ;
+            owl:sameAs bio:200906068457811098,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_40 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "membrane crossing" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_41 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "environmental fate" ;
+            owl:sameAs enm:ENM_0000001,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_42 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_43 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
+    sbdbel:cause [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "crystal structure" ;
+            owl:sameAs npo:NPO_895,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_44 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "kidney activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_45 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "enzyme degredation" ;
+            owl:sameAs <http://www.biopax.org/release/biopax-level3.owl#Degradation>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_46 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
+                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_47 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_48 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_49 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "kidney activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_5 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "quantum and tunneling effects" ;
+            owl:sameAs <http://journals.plos.org/plosone/browse/quantum_tunneling>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_50 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_51 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "liver/spleen activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_52 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_53 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_54 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <https://doi.org/10.1021/cr0500535> ;
+    sbdbel:cause [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_55 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface area" ;
+            owl:sameAs npo:NPO_1235,
+                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_56 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "liver/spleen activity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "concentration" ;
+            owl:sameAs npo:NPO_1167,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:negativelyCorrelates .
+
+kb:CausalAssertion_57 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_58 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_59 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "protein corona" ;
+            owl:sameAs enm:ENM_0000115,
+                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_6 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "dissolution" ;
+            owl:sameAs npo:NPO_1955,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_60 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "deformability" ;
+            owl:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_61 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "deformability" ;
+            owl:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "shape" ;
+            owl:sameAs npo:NPO_274,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_62 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Zeta-potential" ;
+            owl:sameAs npo:NPO_1302,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "sedimentation rate" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_63 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_64 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_65 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "surface charge" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cytotoxicity" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_66 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "light" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "photo-reactivity" ;
+            owl:sameAs bio:200906046025103420,
+                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:positivelyCorrelates .
+
+kb:CausalAssertion_67 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "medium" ;
+            owl:sameAs npo:NPO_1853,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "light" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_68 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lipopolysaccharides" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Pathogen-associated molecular patterns" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:kindOf .
+
+kb:CausalAssertion_69 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Pathogen-associated molecular patterns" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:recognizedBy .
+
+kb:CausalAssertion_7 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
+                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "charge" ;
+            owl:sameAs npo:NPO_1292,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_70 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell membrane" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:partOf .
+
+kb:CausalAssertion_71 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Toll-like receptors" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000136869>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_72 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "aspect ratio (HARN)" ;
+            owl:sameAs npo:NPO_1365,
+                gracious:a1a2da81-f140-f844-9323-17f220ddeb78,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "frustrated phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_73 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "aspect ratio (HARN)" ;
+            owl:sameAs npo:NPO_1365,
+                gracious:a1a2da81-f140-f844-9323-17f220ddeb78,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NADPH oxidase (NOX1) activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000007952>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_74 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "NADPH oxidase (NOX1) activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000007952>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_75 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "oxidative stress" ;
+            owl:sameAs enm:ENM_0000037,
                 gracious:640bbb71-d45e-5d47-a86e-ace7de10544d,
                 aop_event:1392 ] ;
-    sbdbel:relationship sbdbel:positivelyCorrelates .
+    sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_39 a sbdbel:CausalAssertion,
+kb:CausalAssertion_76 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:cause [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_77 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "NLRP3 expression" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/A0A024R5Q0>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_4 a sbdbel:CausalAssertion,
+kb:CausalAssertion_78 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "apoptosis-associated speck-like protein containing a CARD" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000103490>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_79 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "pro-caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_8 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "core composition" ;
+            owl:sameAs npo:NPO_1808,
                 gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "reactivity" ;
-            ns1:sameAs bio:200906068457811098,
+    sbdbel:outcome [ rdfs:label "Zeta-potential" ;
+            owl:sameAs npo:NPO_1302,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_40 a sbdbel:CausalAssertion,
+kb:CausalAssertion_80 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "membrane crossing" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:relationship sbdbel:positivelyCorrelates .
-
-kb:CausalAssertion_41 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
-    sbdbel:cause [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
+    sbdbel:cause [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "environmental fate" ;
-            ns1:sameAs enm:ENM_0000001,
+    sbdbel:outcome [ rdfs:label "NLRP3 expression" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/A0A024R5Q0>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_42 a sbdbel:CausalAssertion,
+kb:CausalAssertion_81 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
-    sbdbel:cause [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
-            ns1:sameAs npo:NPO_296,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_43 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <https://doi.org/10.1016/j.scitotenv.2012.08.066> ;
-    sbdbel:cause [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "crystal structure" ;
-            ns1:sameAs npo:NPO_895,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_44 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "kidney activity" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:cause [ rdfs:label "NF-κB activation" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000109320>,
                 <nan> ] ;
-    sbdbel:relationship sbdbel:negativelyCorrelates .
-
-kb:CausalAssertion_45 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "enzyme degredation" ;
-            ns1:sameAs <http://www.biopax.org/release/biopax-level3.owl#Degradation>,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
+    sbdbel:outcome [ rdfs:label "pro-interleukin (IL)-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_46 a sbdbel:CausalAssertion,
+kb:CausalAssertion_82 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <10.1039/d0nr00868k> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "pro-interleukin (IL)-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
-                gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+    sbdbel:outcome [ rdfs:label "mature IL-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_47 a sbdbel:CausalAssertion,
+kb:CausalAssertion_83 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:cause [ rdfs:label "pro-caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
-            ns1:sameAs bio:200906046025103420,
-                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:negativelyCorrelates .
-
-kb:CausalAssertion_48 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
+    sbdbel:outcome [ rdfs:label "caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_49 a sbdbel:CausalAssertion,
+kb:CausalAssertion_84 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:cause [ rdfs:label "caspase-1" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000137752>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "kidney activity" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_5 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
-                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "quantum and tunneling effects" ;
-            ns1:sameAs <http://journals.plos.org/plosone/browse/quantum_tunneling>,
+    sbdbel:outcome [ rdfs:label "mature IL-1β" ;
+            owl:sameAs <https://www.ensembl.org/id/ENSG00000125538>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_50 a sbdbel:CausalAssertion,
+kb:CausalAssertion_85 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
+    sbdbel:cause [ rdfs:label "Pottasium" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:29103>,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "surface area" ;
-            ns1:sameAs npo:NPO_1235,
-                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
+    sbdbel:outcome [ rdfs:label "inflammasome activation" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_86 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "size" ;
+            owl:sameAs pato:PATO_0000117,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "Phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_87 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "Phagocytosis" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cell uptake (type)" ;
+            owl:sameAs npo:NPO_296,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:kindOf .
+
+kb:CausalAssertion_88 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cell uptake (amount)" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_89 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "cathepsins" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/E9PCB3>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
-kb:CausalAssertion_51 a sbdbel:CausalAssertion,
+kb:CausalAssertion_9 a sbd:CausalAssertion,
         sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "liver/spleen activity" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_52 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (type)" ;
-            ns1:sameAs npo:NPO_296,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_53 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
-                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_54 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <https://doi.org/10.1021/cr0500535> ;
-    sbdbel:cause [ dcterms:label "surface area" ;
-            ns1:sameAs npo:NPO_1235,
-                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "photo-reactivity" ;
-            ns1:sameAs bio:200906046025103420,
-                gracious:f2e9da49-86e2-9841-818c-06668ea97115,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:positivelyCorrelates .
-
-kb:CausalAssertion_55 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "surface area" ;
-            ns1:sameAs npo:NPO_1235,
-                gracious:e0479312-9b4a-2841-a5b4-ba55c2dc9699,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_56 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "liver/spleen activity" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:outcome [ dcterms:label "concentration" ;
-            ns1:sameAs npo:NPO_1167,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:negativelyCorrelates .
-
-kb:CausalAssertion_57 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "cell uptake (type)" ;
-            ns1:sameAs npo:NPO_296,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_58 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
-                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "cell uptake (amount)" ;
-            ns1:sameAs <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_59 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "charge" ;
-            ns1:sameAs npo:NPO_1292,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "protein corona" ;
-            ns1:sameAs enm:ENM_0000115,
-                gracious:89d0aaac-872c-5e4a-b195-c86ae6438ddd,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_6 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
-                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "dissolution" ;
-            ns1:sameAs npo:NPO_1955,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_60 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "deformability" ;
-            ns1:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "size" ;
-            ns1:sameAs pato:PATO_0000117,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_61 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "deformability" ;
-            ns1:sameAs <http://sbmi.uth.tmc.edu/ontology/ochv#C0678559>,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "shape" ;
-            ns1:sameAs npo:NPO_274,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_7 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
-                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "charge" ;
-            ns1:sameAs npo:NPO_1292,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_8 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
-    cito:containsAssertionFrom <nan> ;
-    sbdbel:cause [ dcterms:label "core composition" ;
-            ns1:sameAs npo:NPO_1808,
-                gracious:fa7326c4-966e-2b43-ae02-228eeeaf8de6,
-                <nan> ] ;
-    sbdbel:outcome [ dcterms:label "Zeta-potential" ;
-            ns1:sameAs npo:NPO_1302,
-                <nan> ] ;
-    sbdbel:relationship sbdbel:correlates .
-
-kb:CausalAssertion_9 a sbdbel:CausalAssertion,
-        sbd:resource ;
-    dc:source <https://h2020-sbd4nano.github.io/sbd-data-landscape/wp/relationships/> ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
     cito:containsAssertionFrom <https://dr.lib.iastate.edu/server/api/core/bitstreams/3f7d4880-f782-49a5-9965-e33817b0b2eb/content> ;
-    sbdbel:cause [ dcterms:label "coating/surface chemistry" ;
-            ns1:sameAs npo:NPO_1823,
+    sbdbel:cause [ rdfs:label "coating/surface chemistry" ;
+            owl:sameAs npo:NPO_1823,
                 gracious:0f790f0f-2b26-d346-8756-4ea6181af3c4,
                 <nan> ] ;
-    sbdbel:outcome [ dcterms:label "aggregation" ;
-            ns1:sameAs npo:NPO_1967,
+    sbdbel:outcome [ rdfs:label "aggregation" ;
+            owl:sameAs npo:NPO_1967,
                 gracious:f63dea04-80e4-3e4b-b1bc-bdd501b41734,
+                <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_90 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "cathepsins" ;
+            owl:sameAs <http://www.uniprot.org/uniprot/E9PCB3>,
+                <nan> ] ;
+    sbdbel:outcome [ rdfs:label "mitochondrial damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:relationship sbdbel:correlates .
+
+kb:CausalAssertion_91 a sbd:CausalAssertion,
+        sbd:resource ;
+    dc:source <https://docs.google.com/spreadsheets/d/18n37M72zQJgfsELIGRj6llEZ44Ao48qGoXWXyPazRD0/edit#gid=760845260> ;
+    cito:containsAssertionFrom <nan> ;
+    sbdbel:cause [ rdfs:label "lysosomal damage" ;
+            owl:sameAs <nan> ] ;
+    sbdbel:outcome [ rdfs:label "ROS production" ;
+            owl:sameAs <http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:26523>,
                 <nan> ] ;
     sbdbel:relationship sbdbel:correlates .
 
@@ -810,4 +1149,3 @@ kb:CausalAssertion_9 a sbdbel:CausalAssertion,
 <nan> a sio:SIO_000176 ;
     rdfs:label "Reference" ;
     dcterms:subject <nan> .
-
